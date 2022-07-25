@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import url("../FontFamily/MainLobster/MainLobsterStyle.ttf");
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+	font-family: "Lobster", cursive;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url("../Images/FoxBackground.jpeg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+a:hover {
+     cursor: pointer;
+}
+
+/* Стили для шапки */
+header {
+	width: 100%;
+	height: 100px;
+	background: #D87100;
+}
+
+header img {
+	max-height: 90px;
+	margin-left: 20px;
+	margin-top: 5px;
+	float: left;
+}
+
+#logoIabel {
+	margin-left: 50px;
+	padding-top: 30px;
+	float: left;
+	font-size: 30px;
+	color: white;
+}
+
+#logoIabel:hover {
+	text-decoration: underline;
+}
+
+header a {
+	display: block;
+	float: left;
+	margin-left: 150px;
+	padding-top: 35px;
+	font-size: 20px;
+	color: black;
+}
+
+header a:hover {
+	color: white;
+	transition: all.5s ease;
+	text-decoration: underline;
+}
+
+/*  Стили для основной части сайта */
+#images {
+	margin-right: 8%;
+}
+
+#images img {
+	width: 200px;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 25%;
+}
+
+main center {
+	width: 250px;
+	margin-left: 40%;
+	margin-top: 40px;
+	padding: 10px;
+	font-size: 20px;
+	border: 2px solid black;
+	border-radius: 10px; 
+	background: #D87100;
+	color: white;
+}
+
+main img {
+	float: left;
+	display: block;
+	border: 2px solid #D87100;
+	border-radius: 10px;
+	margin-left: 255px;
+	margin-top: 30px;
+}
+
+#infoBlock {
+	float: left;
+	margin-top: 30px;
+	margin-left: 200px;
+	padding: 31px;
+	background: #D87100;
+	color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#infoBlock span {
+	display: block;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#infoBlock span, ul {
+	margin-left: 25px;
+}
+
+/* Стили для таблицы */
+table {
+	border: 2px solid black;
+	background: #D87100;
+	color: white;
+	margin-top: 20px;
+	width: 100%;
+}
+
+table caption {
+	color: black;
+	background: #D87100;
+	padding: 10px;
+	border: 2px solid black;
+	border-bottom: none;
+}
+
+tr, td, th {
+	padding: 10px;
+	text-align: center;
+}
+
+/* Стили для нижней части сайта */
+footer {
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	background: black;
+	color: white;
+}
+
+footer img {
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+footer span {
+	display: block;
+	float: right;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+
+footer img[id=footerFox] {
+	display: block;
+	float: left;
+	max-height: 90px;
+	margin-left: 310px;
+	margin-top: 5px;
+}
+
+footer span[id=pravaDevelopers] {
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
